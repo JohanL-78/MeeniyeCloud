@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+:root {
+  --background: #FFFFFF;
+  --foreground: #2C3E2F;
+
+  /* Palette naturelle - verts et marrons chauds */
+  --color-primary: #7A9B6E; /* Vert olive chaud */
+  --color-primary-dark: #4A6B4D; /* Vert forêt chaleureux */
+  --color-accent-brown: #A0785A; /* Marron caramel chaud */
+  --color-accent-brown-light: #C4A088; /* Marron clair chaleureux */
+  --color-secondary-bg: #F8F9FA; /* Gris très clair presque blanc */
+  --color-text-dark: #2C3E2F; /* Texte sombre (titres) */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-playfair);
+  --font-mono: var(--font-playfair);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-indie-flower), cursive;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}

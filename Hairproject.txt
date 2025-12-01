@@ -1,0 +1,125 @@
+Je me permets de vous contacter afin d’obtenir un devis pour la création d’un site e-commerce professionnel dans le cadre du lancement de ma marque de cosmétiques capillaires naturels, dédiée aux cheveux crépus, frisés et bouclés. Cette marque vise à accompagner aussi bien les professionnels de la coiffure afro que les particuliers en quête de soins capillaires adaptés et de qualité. Ma marque propose une gamme complète de 12 produits capillaires naturels, formulés avec des ingrédients issus de la pharmacopée afro-caribéenne (huiles végétales, beurres et extraits botaniques reconnus pour leurs bienfaits sur les cheveux texturés). Le site devra refléter l’identité de la marque, avec une présentation claire, épurée et attractive. 
+
+Sur le plan de la conception, je souhaiterais partir sur un site structuré autour de 5 pages principales et de quelques sous-pages :
+
+- Une page d’accueil, mettant en avant l’univers de la marque, les bénéfices clés pour les cheveux crépus et frisés, ainsi qu’une sélection de produits phares.
+
+- Une section Nos Produits présentant l’ensemble de la gamme (12 produits au total), organisée en sous-catégories :
+-> Gammes complètes
+Gamme hydratation intense
+Gamme revigorante
+Sérums traitants
+
+--> Produits à l’unité : shampoings, masques/après-shampoing, crèmes hydratantes, gels, baumes, sérums.
+
+- Une page Notre histoire, incluant la présentation de la fondatrice ainsi que l’explication du choix du nom de la marque.
+
+- Un Espace pro, avec un formulaire de contact dédié aux professionnels de la coiffure, précisant que pour toute demande de gros formats ou de conditions spécifiques, la prise de contact se fait via ce formulaire.
+
+- Une page Contact, avec les informations nécessaires pour toute autre demande ou question.
+
+Je souhaite que le site soit ergonomique, intuitif et responsive, optimisé pour le référencement naturel (SEO) afin de garantir une bonne visibilité sur les moteurs de recherche. L’objectif est d’offrir une expérience utilisateur fluide et agréable, notamment lors des achats en ligne. Le site devra également intégrer des options de livraison en France métropolitaine, dans les DOM-TOM et en Suisse. Je fournirai bien évidemment l’ensemble des contenus à intégrer : textes, descriptifs produits détaillés et photos. Je souhaiterais si possible avoir par la suite la possibilité de gérer le site en toute autonomie ( changement de prix, ajout de produits, de photos etc). 
+
+------------
+Parfait! L'adaptation de votre site est terminée! Voici un
+  récapitulatif complet de tout ce qui a été fait:
+
+  ✅ Adaptations Complètes
+
+  1. Nouvelle Identité Visuelle
+
+  - Couleurs: Palette naturelle vert émeraude (#10B981, #059669)
+  remplaçant l'orange tech
+  - Variables CSS ajoutées dans globals.css pour une cohérence
+  totale
+  - Tous les composants mis à jour avec les nouvelles couleurs
+
+  2. 3 Nouvelles Pages Créées
+
+  - ✅ /notre-histoire - Présentation fondatrice + histoire de la
+  marque
+  - ✅ /espace-pro - Formulaire de contact professionnel
+  (fonctionnel)
+  - ✅ /contact - Page contact avec FAQ intégrée
+
+  3. Navigation Modernisée
+
+  - Navbar mise à jour: Produits | Gammes | Notre Histoire |
+  Espace Pro | Contact
+  - Menu déroulant adapté avec les 4 gammes capillaires
+  - Logo et icônes adaptés à l'univers naturel
+
+  4. Page d'Accueil Transformée
+
+  - Hero section avec message "Beauté Naturelle"
+  - Statistiques adaptées (12 produits, 100% naturel, ingrédients
+  bio)
+  - Section gammes: Hydratation Intense, Gamme Revigorante, Sérums
+   Traitants, Produits à l'unité
+  - Bannière pharmacopée afro-caribéenne
+  - Footer enrichi avec zones de livraison (France, DOM-TOM,
+  Suisse)
+
+  5. Pages Produits Adaptées
+
+  - Tous les produits: Filtres par gamme capillaire
+  - Icônes adaptées (Droplets, Sparkles, Leaf, Heart)
+  - Couleurs et prix en euros (€)
+
+  6. Composants Panier
+
+  - AddToCartButton: couleurs vertes
+  - CartDrawer: design cohérent avec la nouvelle identité
+
+  7. SEO Optimisé
+
+  - Métadonnées globales et par page
+  - Titles et descriptions axés sur cheveux crépus/frisés/bouclés
+  - Keywords: naturel, pharmacopée afro-caribéenne, DOM-TOM
+
+  📋 Prochaines Étapes
+
+  1. Configuration Shopify
+
+  Dans votre admin Shopify, créez ces collections avec les handles
+   exacts:
+  - hydratation-intense
+  - gamme-revigorante
+  - serums-traitants
+  - produits-unite
+
+  2. Ajout des Produits
+
+  - Ajoutez vos 12 produits capillaires dans Shopify
+  - Catégorisez-les dans les bonnes collections
+  - Ajoutez des tags (New, Bestseller, etc.)
+
+  3. Personnalisation
+
+  - Remplacez "Cosmétiques Naturels" par le vrai nom de votre
+  marque dans:
+    - app/layout.js
+    - app/page.js
+    - app/components/Navbar.js
+    - Toutes les pages créées
+
+  4. Images
+
+  - Remplacez les images Unsplash par vos vraies photos de
+  produits
+  - Ajoutez des photos de la fondatrice
+
+  5. Test du Site
+
+  npm run dev
+  Puis ouvrez http://localhost:3000
+
+  6. Configuration Finale
+
+  - Ajoutez vos vraies coordonnées (email, téléphone) dans
+  /espace-pro et /contact
+  - Configurez les variables d'environnement Shopify si ce n'est
+  pas déjà fait
+
+  Votre site est maintenant prêt à sublimer les cheveux texturés!
+  🌿✨
