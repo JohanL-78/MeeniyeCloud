@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // 👇 C'est ça qui te sauve la mise
+  // On ignore les erreurs pour que ça passe
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -28,4 +28,5 @@ const nextConfig = {
   },
 };
 
-module.exports = nextConfig;
+// 👇 C'est ici que ça change : "export default" au lieu de "module.exports"
+export default nextConfig;
