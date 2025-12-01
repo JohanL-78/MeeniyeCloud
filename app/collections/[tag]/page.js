@@ -1,3 +1,4 @@
+export const runtime = 'edge';
 import { getCollection } from '@/lib/shopify';
 import Link from 'next/link';
 import Navbar from '@/app/components/Navbar';
